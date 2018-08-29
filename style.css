@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #333;
+	line-height: 1.7
+}
+
+.primary-color {
+	color: #0959B2;
+}
+
+.secondary-color {
+	color: #FF1400;
+}
+
+.accent {
+	color: #DFFF19;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: #FDFF0D;
+	text-decoration: none;
+	border-bottom: 2px solid #FDFF0D;
+	padding-bottom: 2px;
+	transition: .3s all ease;
+}
+
+a:hover {
+	color: #fff;
+	border-color:transparent;
+}
+
+h1 {
+	font-size: 3.998rem;
+	font-size: 2.827rem;
+}
+
+h2 {
+	font-size: 2.827rem;
+}
+
+h3 {
+	font-size: 1.999rem;
+}
+
+h4 {
+	font-size: 1.414rem;
+}
+
+.title {
+	color: #CC231F;
+	margin-bottom: 16px;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.hero-section {
+	min-height: 400px;
+	height: 100vh;
+	background: url(img/acoustic-guitar.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+/*	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;*/
+
+	color: #fff;
+}
+
+.hero-section .wrapper {
+	height: inherit;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-align {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.main {
+	margin: 48px 0;
+}
+
+/*p + p {
+	margin-top: 24px;
+}*/
+
+p {
+	margin-bottom: 24px;
+}
+
+.footer {
+	/*border-top: 5px solid #FDFF0D;*/
+	color: #fff;
+	font-size: 14px;
+	background: #222;
+	padding: 72px 0 24px;
+}
